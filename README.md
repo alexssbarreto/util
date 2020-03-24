@@ -1,6 +1,6 @@
-# Abstract Laravel Lumen
+# PHP Utils
 
-Architectural abstraction created to be used in the Abstract Laravel Lumen. The objective is to facilitate the creation of CRUD.
+Recursos úteis para o trabalho em PHP: mask, CPF, CNPJ, Date.
 
 ## License
 
