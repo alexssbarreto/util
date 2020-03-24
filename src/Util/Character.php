@@ -4,7 +4,7 @@ namespace Abtechi\Util;
 
 /**
  * Class Character
- * @package Abtechi\Util
+ * @package Util\Util
  */
 class Character
 {

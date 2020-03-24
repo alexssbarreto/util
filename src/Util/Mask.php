@@ -5,7 +5,7 @@ namespace Abtechi\Util;
 /**
  * Aplica um formato de máscara
  * Class Mask
- * @package Abtechi\Util
+ * @package Util\Util
  */
 class Mask
 {

@@ -5,7 +5,7 @@ namespace Abtechi\Util;
 /**
  * Validação de Datas - Datetime
  * Class Date
- * @package Abtechi\Util
+ * @package Util\Util
  */
 class Date
 {

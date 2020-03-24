@@ -4,7 +4,7 @@ namespace Abtechi\Util;
 
 /**
  * Class CPF
- * @package Abtechi\Util
+ * @package Util\Util
  */
 class CPF
 {

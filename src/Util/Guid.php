@@ -5,7 +5,7 @@ namespace Abtechi\Util;
 /**
  * Gerador UUID
  * Class Guid
- * @package Abtechi\Util
+ * @package Util\Util
  */
 class Guid
 {

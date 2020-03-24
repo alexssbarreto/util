@@ -5,7 +5,7 @@ namespace Abtechi\Util;
 /**
  * Conversão de valores
  * Class Money
- * @package Abtechi\Util
+ * @package Util\Util
  */
 class Money
 {

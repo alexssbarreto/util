@@ -4,7 +4,7 @@ namespace Abtechi\Util;
 
 /**
  * Class CNPJ
- * @package Abtechi\Util
+ * @package Util\Util
  */
 class CNPJ
 {
