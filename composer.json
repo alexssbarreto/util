@@ -1,0 +1,45 @@
+{
+  "name": "abtechi/util",
+  "description": "Recursos utils para o desenvolvimento",
+  "keywords": [
+    "laravel",
+    "lumen",
+    "architecture",
+    "php",
+    "utils",
+    "CPF",
+    "CNPJ",
+    "MASK"
+  ],
+  "homepage": "https://github.com/abtechi/util",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Barreto",
+      "homepage": "https://github.com/abtechi",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "alexssb2003@gmail.com"
+  },
+  "require": {
+    "php": ">=5.4.0",
+  },
+  "require-dev": {
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Abtechi\\Util\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
