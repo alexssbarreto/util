@@ -15,6 +15,7 @@ class Date
     const LEFTEQUAL = '<=';
     const RIGHT = '>';
     const RIGHTEQUAL = '>=';
+    const BETWEEN = 'BETWEEN';
 
     protected static $date;
 
@@ -148,16 +149,29 @@ class Date
     }
 
     /**
+     * Verifica se uma data está entre datas
+     * @param \DateTime $compare
+     * @param \DateTime $data
+     * @param \DateTime $data2
+     * @return bool
+     */
+    public static function between(\DateTime $compare, \DateTime $data, \DateTime $data2)
+    {
+        return self::compareDate($data, $data2, self::BETWEEN, $compare);
+    }
+
+    /**
      * Compara uma determinada data.
      * @param $data
      * @param $data2
      * @param $comparable
      * @return bool
      */
-    private static function compareDate($data, $data2, $comparable)
+    private static function compareDate($data, $data2, $comparable, $data3 = null)
     {
         $data  = strtotime($data->format('Y-m-d H:i:s'));
         $data2 = strtotime($data2->format('Y-m-d H:i:s'));
+        $data3 = strtotime($data3->format('Y-m-d H:i:s'));
 
         switch ($comparable) {
             case self::LEFT:
@@ -174,6 +188,9 @@ class Date
 
             case self::RIGHTEQUAL:
                 return $data >= $data2;
+
+            case self::BETWEEN:
+                return $data3 >= $data && $data3 <= $data2;
         }
     }
 }
