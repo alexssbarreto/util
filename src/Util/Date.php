@@ -1,6 +1,6 @@
 <?php
 
-namespace Abtechi\Util;
+namespace Abtechi\Util\Util;
 
 /**
  * Validação de Datas - Datetime

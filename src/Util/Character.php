@@ -1,6 +1,6 @@
 <?php
 
-namespace Abtechi\Util;
+namespace Abtechi\Util\Util;
 
 /**
  * Class Character
