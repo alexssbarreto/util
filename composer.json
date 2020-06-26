@@ -32,7 +32,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Abtechi\\Util\\": "src/"
+      "Abtechi\\Util\\": "src/Util"
     }
   },
   "minimum-stability": "dev",
