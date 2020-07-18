@@ -171,7 +171,7 @@ class Date
     {
         $data  = strtotime($data->format('Y-m-d H:i:s'));
         $data2 = strtotime($data2->format('Y-m-d H:i:s'));
-        $data3 = strtotime($data3->format('Y-m-d H:i:s'));
+        $data3 = $data3 ? strtotime($data3->format('Y-m-d H:i:s')) : null;
 
         switch ($comparable) {
             case self::LEFT:
