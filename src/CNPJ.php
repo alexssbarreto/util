@@ -1,6 +1,6 @@
 <?php
 
-namespace Abtechi\Util\Util;
+namespace Abtechi\Util;
 
 /**
  * Class CNPJ

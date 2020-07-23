@@ -1,6 +1,6 @@
 <?php
 
-namespace Abtechi\Util\Util;
+namespace Abtechi\Util;
 
 /**
  * Classe responsável por gerar token JWT
