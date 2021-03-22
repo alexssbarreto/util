@@ -13,9 +13,9 @@ class Character
      * @param $string
      * @return mixed
      */
-    public static function sanitize($string)
+    public static function sanitize($string, $replace = '_')
     {
-        return preg_replace('{\W}', '', preg_replace('{ +}', '_', strtr(
+        return preg_replace('{\W}', '', preg_replace('{ +}', $replace, strtr(
             utf8_decode(html_entity_decode($string)),
             utf8_decode('ÀÁÃÂÉÊÍÓÕÔÚÜÇÑàáãâéêíóõôúüçñ'),
             'AAAAEEIOOOUUCNaaaaeeiooouucn')));
