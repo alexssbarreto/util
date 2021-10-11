@@ -11,12 +11,12 @@
     "CNPJ",
     "MASK"
   ],
-  "homepage": "https://github.com/abtechi/util",
+  "homepage": "https://github.com/alexssbarreto/util",
   "license": "MIT",
   "authors": [
     {
       "name": "Alex Barreto",
-      "homepage": "https://github.com/abtechi",
+      "homepage": "https://github.com/alexssbarreto",
       "role": "Developer"
     }
   ],
